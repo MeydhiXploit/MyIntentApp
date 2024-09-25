@@ -7,6 +7,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MoveWithDataActivity : AppCompatActivity() {
+    companion object{
+        const val EXTRA_AGE = "extra_age"
+        const val EXTRA_NAME = "extra_name"
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
