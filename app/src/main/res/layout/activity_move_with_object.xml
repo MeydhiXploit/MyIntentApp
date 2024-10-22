@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MoveWithDataActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".MoveWithObjectActivity">
 
     <TextView
-        android:id="@+id/tv_data_received"
+        android:id="@+id/tv_object_received"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/data_received" />
+        android:text="@string/object_received"/>
 
 </RelativeLayout>

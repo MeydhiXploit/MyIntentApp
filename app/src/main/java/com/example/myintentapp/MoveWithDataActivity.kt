@@ -21,6 +21,11 @@ class MoveWithDataActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
         val tvDataReceived:TextView = findViewById(R.id.tv_data_received)
+        val name = intent.getStringExtra(EXTRA_NAME)
+        val age = intent.getIntExtra(EXTRA_AGE,0)
+        val text = "Name : $name,Your Age : $age"
+        tvDataReceived.text = text
     }
 }
